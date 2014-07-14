@@ -1010,6 +1010,7 @@ def group_configurations_list_handler(request, course_key_string):
         for partition in course.user_partitions:
             configuration = partition.to_json()
             configuration['usage'] = unit_urls.get(partition.id, [])
+            configuration['course_outline_url'] = reverse_course_url('course_handler', course_key)
             configurations.append(configuration)
 
         return render_to_response('group_configurations.html', {
