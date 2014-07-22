@@ -50,3 +50,4 @@ Mailing List and IRC Channel
 ----------------------------
 
 You can discuss this code on the [edx-code Google Group](https://groups.google.com/forum/#!forum/edx-code) or in the [`edx-code` IRC channel on Freenode](http://webchat.freenode.net/?channels=edx-code).
+ 
